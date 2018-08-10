@@ -1,0 +1,46 @@
+@import "../../styles/theme";
+
+.Button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+  width: 160px;
+
+  border-radius: 60px;
+
+  font-family: $primary-font;
+  font-size: 16px;
+
+  letter-spacing: 1.27px;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+
+.active {
+}
+
+.disabled {
+  border: 2px solid $color-text-lighter;
+
+  color: $color-text-lighter;
+  letter-spacing: 1.64px;
+}
+
+.fill {
+  background: $green;
+  box-shadow: 0 6px 8px 0 rgba(103, 194, 172, 0.5);
+
+  color: $white;
+  letter-spacing: 1.61px;
+}
+
+.no-fill {
+  border: 2px solid $blue;
+
+  color: $blue;
+  letter-spacing: 1.27px;
+}
